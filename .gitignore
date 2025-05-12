@@ -4,3 +4,4 @@ composer.lock
 *.cache
 *.log
 *.env
+*.github

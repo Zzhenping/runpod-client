@@ -20,17 +20,17 @@
 ## 📦 安装
 
 ```bash
-composer require stallzhan/runpod-client
+composer require zzhenping/runpod-client
 ```
 
 ## 🔧 快速生成配置文件
 ```bash
-php bin/hyperf.php vendor:publish stallzhan/runpod-client
+php bin/hyperf.php vendor:publish zzhenping/runpod-client
 ```
 
 ## 🧩 使用示例
 ```
-use StallZhan\RunPodClient\Serverless\ServerlessService;
+use Zzhenping\RunPodClient\Serverless\ServerlessService;
 
 class IndexController extends AbstractController
 {
