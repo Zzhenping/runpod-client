@@ -8,8 +8,8 @@
 
 namespace HyperfTest\Cases;
 
-use StallZhan\RunPodClient\RunPodClient;
-use StallZhan\RunPodClient\Serverless\ServerlessService;
+use Zzhenping\RunPodClient\RunPodClient;
+use Zzhenping\RunPodClient\Serverless\ServerlessService;
 use GuzzleHttp\Client;
 use function Hyperf\Coroutine\go;
 

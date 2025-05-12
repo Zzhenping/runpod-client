@@ -6,10 +6,10 @@
  * Date: 2025/5/9
  */
 
-namespace StallZhan\RunPodClient\Serverless;
+namespace Zzhenping\RunPodClient\Serverless;
 
-use StallZhan\RunPodClient\Contracts\JobStatus;
-use StallZhan\RunPodClient\RunPodClient;
+use Zzhenping\RunPodClient\Contracts\JobStatus;
+use Zzhenping\RunPodClient\RunPodClient;
 
 class ServerlessService implements ServerlessInterface
 {

@@ -6,7 +6,7 @@
  * Date: 2025/5/9
  */
 
-namespace StallZhan\RunPodClient\Exceptions;
+namespace Zzhenping\RunPodClient\Exceptions;
 
 class ServerErrorException extends RunPodException {}
 {

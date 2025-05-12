@@ -1,18 +1,18 @@
 <?php
 
-namespace StallZhan\RunPodClient;
+namespace Zzhenping\RunPodClient;
 
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;
-use StallZhan\RunPodClient\Contracts\StatusCode;
-use StallZhan\RunPodClient\Exceptions\NotFoundException;
-use StallZhan\RunPodClient\Exceptions\ServerErrorException;
-use StallZhan\RunPodClient\Exceptions\UnauthorizedException;
-use StallZhan\RunPodClient\Exceptions\BadRequestException;
-use StallZhan\RunPodClient\Exceptions\TimeoutErrorException;
+use Zzhenping\RunPodClient\Contracts\StatusCode;
+use Zzhenping\RunPodClient\Exceptions\NotFoundException;
+use Zzhenping\RunPodClient\Exceptions\ServerErrorException;
+use Zzhenping\RunPodClient\Exceptions\UnauthorizedException;
+use Zzhenping\RunPodClient\Exceptions\BadRequestException;
+use Zzhenping\RunPodClient\Exceptions\TimeoutErrorException;
 use Hyperf\Contract\ConfigInterface;
 
 class RunPodClient

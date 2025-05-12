@@ -6,7 +6,7 @@
  * Date: 2025/5/9
  */
 
-namespace StallZhan\RunPodClient\Contracts;
+namespace Zzhenping\RunPodClient\Contracts;
 
 
 //IN_QUEUE：该作业正在端点队列中等待可用的工作人员来处理它。

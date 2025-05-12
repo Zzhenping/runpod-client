@@ -6,7 +6,7 @@
  * Date: 2025/5/9
  */
 
-namespace StallZhan\RunPodClient\Contracts;
+namespace Zzhenping\RunPodClient\Contracts;
 
 class StatusCode
 {

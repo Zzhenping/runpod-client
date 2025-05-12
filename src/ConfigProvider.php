@@ -9,10 +9,10 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace StallZhan\RunPodClient;
+namespace Zzhenping\RunPodClient;
 
-use StallZhan\RunPodClient\Serverless\ServerlessInterface;
-use StallZhan\RunPodClient\Serverless\ServerlessService;
+use Zzhenping\RunPodClient\Serverless\ServerlessInterface;
+use Zzhenping\RunPodClient\Serverless\ServerlessService;
 
 class ConfigProvider
 {

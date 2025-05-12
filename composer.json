@@ -1,5 +1,5 @@
 {
-    "name": "stallzhan/runpod-client",
+    "name": "zzhenping/runpod-client",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -10,7 +10,7 @@
     "description": "A Hyperf component that provides a convenient client for interacting with the RunPod API. This package simplifies serverless GPU workload management, allowing easy deployment and execution of AI/ML tasks on RunPod's cloud infrastructure.",
     "autoload": {
         "psr-4": {
-            "StallZhan\\RunPodClient\\": "src/"
+            "Zzhenping\\RunPodClient\\": "src/"
         }
     },
     "autoload-dev": {
@@ -49,7 +49,7 @@
             "dev-master": "1.0-dev"
         },
         "hyperf": {
-            "config": "StallZhan\\RunPodClient\\ConfigProvider"
+            "config": "Zzhenping\\RunPodClient\\ConfigProvider"
         }
     }
 }

@@ -6,7 +6,7 @@
  * Date: 2025/5/9
  */
 
-namespace StallZhan\RunPodClient\Serverless;
+namespace Zzhenping\RunPodClient\Serverless;
 
 interface ServerlessInterface
 {
